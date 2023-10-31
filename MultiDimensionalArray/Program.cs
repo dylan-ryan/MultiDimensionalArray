@@ -29,11 +29,16 @@ namespace MultiDimensionalArray
             //for each column
             for (int y = 0; y < 5; y++)
             {
-
+                for (int x = 0; x < 5; x++)
+                {
+                    Console.Write(emoticon[x, y]);
+                }
+                Console.WriteLine();
             }
             Console.WriteLine();
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey(true);
         }
+
     }
 }
