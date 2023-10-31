@@ -10,6 +10,30 @@ namespace MultiDimensionalArray
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("2D Arrays");
+            Console.WriteLine();
+
+            //2d array
+            char[,] emoticon; //declaration
+            emoticon = new char[5, 5]; //instantiation (creating it, in memory)
+            //initialization
+            emoticon[2, 0] = '*';
+            emoticon[1, 1] = '*';
+            emoticon[3, 1] = '*';
+            emoticon[0, 2] = '*';
+            emoticon[4, 2] = '*';
+            emoticon[1, 3] = '*';
+            emoticon[3, 3] = '*';
+            emoticon[2, 4] = '*';
+
+            //for each column
+            for (int y = 0; y < 5; y++)
+            {
+
+            }
+            Console.WriteLine();
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey(true);
         }
     }
 }
